@@ -1,0 +1,61 @@
+
+.about h3{
+     text-align:center;
+     margin: 15px 0;
+     font-family: 'Noto Serif', serif;
+     color:white
+}
+.about h4{
+     text-align:center;
+     margin:5px 0 15px;
+     font-family: 'Noto Serif', serif;
+     color:white
+}    
+.flex{
+     display:flex;
+     flex-direction:row;
+     justify-content:space-around
+}
+.About-text{
+     width:100%;
+     text-align:center;
+     color:white;
+     display:flex;
+     flex-direction:column;
+     justify-content:center
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+.About-text h2{
+     margin: 20px 0px 10px 0px ;
+     font-family: 'PT Sans Narrow', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+.About-text p{
+     font-family: 'Noto Serif', serif;
+}
+.about-btn{
+     width:40%;
+     margin: 10px 40%;
+     font-family: 'Noto Serif', serif;
+}
+.modal-body p{
+     font-family: 'Noto Serif', serif;
+}
+.modal-title{
+     font-family: 'PT Sans Narrow', sans-serif;
+}
+
+@media screen and (max-width:700px){
+     .flex{
+          display:flex;
+          flex-direction:column;
+          justify-content:center;
+          margin: 10px 20px
+     }
+     .madal-body{
+          width:50%
+     }
+     .about-btn{
+          width:30%
+     }
+}

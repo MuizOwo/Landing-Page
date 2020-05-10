@@ -1,0 +1,55 @@
+.team-body{
+     margin:20px 0px 0px
+}
+.teams{
+     display:flex;
+     flex-direction:row;
+     justify-content:center;
+     align-items:center;
+     font-family: 'Noto Serif', serif;
+     color:black;
+     
+}
+.teams .team-img{
+     border-radius:100%;
+}
+.team-1,.team-2{
+     margin: 0 100px
+}
+.team-1 i,.team-2 i{
+     justify-content:space-between;
+     color:black;
+     cursor:pointer;
+     margin: 0px 15px
+}
+.team-1 i:hover,.team-2 i:hover{
+     color:white
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+.team-body h2{
+     text-align:center;
+     margin: 15px 0;
+     font-family: 'Noto Serif', serif;
+     color:white
+}
+.team-body h3{
+     text-align:center;
+     margin:5px 0 15px;
+     font-family: 'Noto Serif', serif;
+     color:white
+}    
+.card-text{
+     text-align:center
+}
+@media screen and (max-width:700px){
+     .teams{
+          display:flex;
+          flex-direction:column;
+          justify-content:center
+     }
+     .team-1 ,.team-2{
+          margin: 15px 0px;
+     }
+}

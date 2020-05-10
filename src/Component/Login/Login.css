@@ -1,0 +1,69 @@
+.flex-login{
+     display:flex;
+     flex-direction:row;
+     justify-content:space-between;
+     width:100%;
+     align-items:center
+}
+.quote{
+     width:70%;
+     font-family: 'Noto Serif', serif;
+}
+.form{
+     width:90%;
+     display:flex;
+     margin:5px;
+     flex-direction:row;
+     justify-content:space-between;
+
+}
+ .quote2{
+     width:90%;
+}
+.contact{
+     height:100%;
+     margin: 0px 0px 0px 0px
+}
+.input-group{
+     margin:15px 0
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+.login h3{
+     text-align:center;
+     margin: 15px 0;
+     font-family: 'Noto Serif', serif;
+     color:white
+}
+.quote h4{
+     text-align:start;
+     margin: 5px 0;
+     font-family: 'Noto Serif', serif;
+     color:black;
+     font-size:20px
+}
+.map-box{
+     height:70vh;
+     width:100%
+}
+.input-group{
+     font-family: sans-serif;
+}
+
+@media screen and (max-width:700px){
+     .flex-login, .form{
+          display:flex;
+          flex-direction:column;
+          justify-content:center;
+          margin: 10px 20px 0 20px
+     }
+     .quote2{
+           display:flex;
+          flex-direction:column;
+          justify-content:center;
+          margin: 0px 20px
+     }
+     .quote h4{
+          text-align:center;
+          margin-top:15px
+     }
+}

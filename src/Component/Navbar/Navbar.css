@@ -1,0 +1,17 @@
+.navbarBrand-text{
+     color:white;
+     display:flex;
+     flex-direction:row;
+     justify-content: space-between
+}
+.nav-i i{
+     color:white
+}
+.nav-i i:hover{
+     color:black
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+.navbarBrand-text h2{
+     font-size:18px;
+     font-family: 'Noto Serif', serif;
+}

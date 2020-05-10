@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import {BrowserRouter as Router, Route} from 'react-router-dom'
+import Slider from './Component/Slider/Slider'
+import NavbarTop from './Component/Navbar/Navbar'
+import About from './Component/About/About'
+import Service from './Component/Serviice/Service'
+import Login from './Component/Login/Login'
+import Footer from './Component/Footer/Footer'
+import Team from './Component/Team/Team'
+import Design from './Component/Design/Design'
+import grey from '@material-ui/core/colors/grey'
+
+
+
+const primary=grey[500]
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div style={{backgroundColor:(primary)}}>
+        <NavbarTop />
+        <Slider />
+        <About />
+        <Service />
+        <Login />
+        <Team />
+        <Design />
+        <Footer />
+      </div>
+
   );
 }
 

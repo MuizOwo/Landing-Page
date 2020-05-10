@@ -1,0 +1,39 @@
+.design-images{
+     display:flex;
+     flex-direction:row;
+     justify-content:center;
+     align-items:center;
+}
+.design-1 img,.design-2 img,.design-3 img,.design-4 img{
+     height:25vh;
+     width:23vw;
+     margin: 10px 8px;
+     border:1px solid grey
+}
+.design-text p{
+     text-align:center;
+     color:white;
+     font-size:18px
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+.design h2{
+     text-align:center;
+     margin:10px 0 8px 0;
+     font-family: 'Noto Serif', serif;
+     color:white;
+     font-size:25px
+}
+@media screen and (max-width:700px){
+     .design-images{
+          display:flex;
+          flex-direction:column;
+          justify-content:center;
+          margin: 15px 0
+     }
+     .design-1 img,.design-2 img,.design-3 img,.design-4 img{
+          height:30vh;
+          width:60vw;
+          margin: 10px 13px;
+          border:1px solid black
+     }
+}
